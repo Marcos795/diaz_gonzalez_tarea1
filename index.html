@@ -1,49 +1,101 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-     <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-      <div class="contenedor1">
-    
-    <!-- Sección izquierda -->
+  <!-- LOGIN + SELECTOR DE GÉNERO (NO SE TOCA) -->
+  <div class="contenedor1">
     <div class="login">
       <div class="logo">
         <img src="https://github.com/VEDRUNA-DISENO-WEB/web-tienda/blob/main/resources/img/logo_marca.png?raw=true" alt="logo">
         <h2>Welcome Back</h2>
       </div>
-      
       <form class="formulario">
         <input type="text" placeholder="User">
         <input type="password" placeholder="Password">
         <button type="submit" class="boton-login">Log in</button>
-        
         <button type="button" class="boton-google">
           <img src="https://github.com/VEDRUNA-DISENO-WEB/web-tienda/blob/main/resources/img/google.png?raw=true" alt="google logo">
-            Log in with Google
+          Log in with Google
         </button>
       </form>
     </div>
-
-    <!-- Sección derecha con imagen -->
     <div class="imagen">
       <img src="https://github.com/VEDRUNA-DISENO-WEB/web-tienda/blob/main/resources/img/img_login.png?raw=true" alt="models">
     </div>
   </div>
-  
-    <div class="contenedor-genero">
-    <a href="/mujer" class="genero">
-      <img src="https://github.com/VEDRUNA-DISENO-WEB/web-tienda/blob/main/resources/img/select_woman.png?raw=true" alt="Mujer">
-      <span class="texto-genero">MUJER</span>
+
+  <div class="contenedor-genero">
+    <a href="#rebajas" class="genero">
+  <img src="https://github.com/VEDRUNA-DISENO-WEB/web-tienda/blob/main/resources/img/select_woman.png?raw=true" alt="Mujer">
+  <span class="texto-genero">MUJER</span>
     </a>
-    <a href="/hombre" class="genero">
+    <a href="#rebajas-hombre" class="genero">
       <img src="https://github.com/VEDRUNA-DISENO-WEB/web-tienda/blob/main/resources/img/select_man.png?raw=true" alt="Hombre">
       <span class="texto-genero">HOMBRE</span>
     </a>
   </div>
+
+  <!--  SECCIÓN REBAJAS MUJER -->
+  <section id="rebajas"class="rebajas"> <!-- Imagen de fondo -->
+    <img src="https://github.com/VEDRUNA-DISENO-WEB/web-tienda/blob/main/resources/img/page_woman.png?raw=true" alt="Fondo modelo" class="background-image">
+
+    <!-- Texto superior izquierda -->
+    <div class="top-left">
+      <span>HOME</span>
+      <span>SHOP</span>
+    </div>
+
+    <!-- Texto superior derecha -->
+    <div class="top-right">
+      <span>User_name</span>
+      <img src="C:\Users\MarcosDíazGonzález\Downloads\6326055.png" alt="Avatar" class="avatar">
+    </div>
+
+    <!-- Texto centrado -->
+    <div class="center-text">
+      <h1 class="title">REBAJAS</h1>
+      <p class="subtitle">MIRTO MUJER</p>
+    </div>
+
+    <!-- Descuentos en parte inferior -->
+    <div class="bottom-text">
+      <p class="discounts">-10% -20% -30% -40% -50%</p>
+    </div>
+  </section>
+
+  <!--  SECCIÓN REBAJAS HOMBRE -->
+  <section id="rebajas-hombre"class="rebajas-hombre"> <!-- Imagen de fondo -->
+    <img src="https://github.com/VEDRUNA-DISENO-WEB/web-tienda/blob/main/resources/img/page_man.png?raw=true" alt="Fondo modelo" class="background-image">
+
+    <!-- Texto superior izquierda -->
+    <div class="top-left">
+      <span>ROPA</span>
+      <span>LIBROS</span>
+      <span>EXTRA</span>
+    </div>
+
+    <!-- Texto superior derecha -->
+    <div class="top-right">
+      <span>User_name</span>
+      <img src="C:\Users\MarcosDíazGonzález\Downloads\6326055.png" alt="Avatar" class="avatar">
+    </div>
+
+    <!-- Texto centrado -->
+    <div class="center-text">
+      <h1 class="title">REBAJAS</h1>
+      <p class="subtitle">MIRTO</p>
+    </div>
+
+    <!-- Descuentos en parte inferior -->
+    <div class="bottom-text">
+      <p class="discounts">-10% -20% -30% -40% -50%</p>
+    </div>
+  </section>
 
 </body>
 </html>

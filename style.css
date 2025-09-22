@@ -1,10 +1,10 @@
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: 'Arial', sans-serif;
 }
-
 
 body {
   height: 100vh;
@@ -153,4 +153,113 @@ body {
     transform: none;
     font-size: 2rem;
   }
+}
+
+/* ====== NUEVA SECCIÓN: REBAJAS ====== */
+
+.rebajas {
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  overflow: hidden;
+  font-family: 'Arial', sans-serif;
+  color: #606060;
+  display: none;
+}
+
+#rebajas:target {
+  display: block;
+}
+
+.rebajas-hombre {
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  overflow: hidden;
+  font-family: 'Arial', sans-serif;
+  color: #606060;
+  display: none;
+}
+
+#rebajas-hombre:target {
+  display: block;
+}
+
+.background-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  z-index: -1;
+  object-position: top; 
+}
+
+/* Texto superior izquierda */
+.top-left {
+  position: absolute;
+  top: 20px;
+  left: 30px;
+  display: flex;
+  gap: 20px;
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+/* Texto superior derecha */
+.top-right {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 1rem;
+  color: #606060;
+}
+
+.avatar {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+}
+
+/* Texto centrado */
+.center-text {
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+}
+
+.title {
+  font-size: 6rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.subtitle {
+  font-size: 3rem;
+  font-style: italic;
+}
+
+/* Texto inferior */
+.bottom-text {
+  position: absolute;
+  bottom: 30px;
+  width: 100%;
+  text-align: center;
+}
+
+.discounts {
+position: absolute;
+  top: 600%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 2rem;
+  font-weight: bold;
+    color: white;
 }
