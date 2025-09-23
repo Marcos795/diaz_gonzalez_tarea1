@@ -18,7 +18,7 @@ body {
 /* Izquierda */
 .login {
   width: 40%;
-  background: #fff;
+  background: #F5F5F5;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -256,37 +256,37 @@ position: absolute;
 
 /* Contenedor principal */
 .logo-buscador {
-  position: relative;           /* necesario para posicionar el buscador */
-  background-color: #fff;
+  position: relative;          
+  background-color: #F5F5F5;
   padding: 10px 10px;
-  text-align: center;           /* centra el logo */
+  text-align: center;           
   line-height: 0%;
 }
 
-/* Logo centrado y más grande */
+/* Logo centrado */
 .logo img {
-  height: 120px;           /* tu tamaño */
-  display: block;         /* elimina el espacio inline */
-  margin: 0 auto;         /* centra horizontalmente */
+  height: 120px;           
+  display: block;        
+  margin: 0 auto;        
 }
 
 /* Buscador a la derecha en la misma línea */
 .buscador {
   position: absolute;
   top: 50%;
-  right: 20px;                 /* margen desde la derecha */
-  transform: translateY(-50%); /* centra verticalmente respecto al logo */
+  right: 20px;                 
+  transform: translateY(-50%);
 }
 
 /* Input del buscador */
 .buscador input[type="text"] {
-  padding: 8px 10px 8px 35px; /* espacio para icono */
-  border: 1px solid #ccc;
+  padding: 8px 10px 8px 35px; 
+  border: 1px solid #CDCACA;
   border-radius: 4px;
   font-size: 14px;
   outline: none;
-  width: 250px; /* ancho fijo */
-  color: #000; /* texto en negro */
+  width: 250px; 
+  color: #000; 
   font-weight: bold;
 }
 
@@ -297,7 +297,7 @@ position: absolute;
 
 /* Icono lupa */
 .buscador::before {
-  content: "\1F50D"; /* emoji lupa */
+  content: "\1F50D";
   position: absolute;
   left: 10px;
   top: 50%;
@@ -309,7 +309,7 @@ position: absolute;
 /* ====== SECCIÓN PRODUCTOS ====== */
 .grid-productos {
   display: grid;
-  grid-template-columns: repeat(4, 1fr); /* 4 columnas */
+  grid-template-columns: repeat(4, 1fr); 
   gap: 30px;
   padding: 40px 5%;
 }
